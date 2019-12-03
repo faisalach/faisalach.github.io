@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<title>Landing Page</title>
+
+</head>
+<body>
+
+	<section id="navbar">
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<div class="container">
+				<a class="navbar-brand nav-link" href="#home">Muhammad Faisal</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav ml-auto">
+						<a class="nav-item nav-link about-link" href="#about">About</a>
+						<a class="nav-item nav-link portfolio-link" href="#portfolio">Portfolio</a>
+						<a class="nav-item nav-link contact-link" href="#contact">Contact</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</section>
+
+	<section class="header" id="home">
+		<div class="jumbotron text-white text-center">
+			<div class="gradient"></div>
+			<div class="content">
+				<span class="img">
+					<img src="img/jumbotron/2.jpg">
+				</span>
+				<h3 class="mt-4 text-shadow">Muhammad Faisal Achramsyah</h3>
+				<h5 class="mt-4">WEB DEVELOPER</h5>	
+			</div>
+		</div>	
+	</section>
+
+	<section class="about bg-light py-4 position-relative" id="about">
+		<span class="pattern-circle p-1"></span>
+		<span class="pattern-circle p-2"></span>
+		<span class="pattern-circle p-3"></span>
+		<span class="pattern-circle p-4"></span>
+		<span class="pattern-circle p-5"></span>
+		<div class="container">
+			<h1 class="text-center title">About</h1>
+			<div class="row text-justify about-content">
+				<div class="offset-lg-2"></div>
+				<div class="col-lg">
+					<p>
+						Saya berpengalaman dalam membuat aplikasi berbasis website. Aplikasi yang saya kerjakan menggunakan bahasa pemrograman PHP. Framework yang saya gunakan adalah CodeIgniter dan juga Laravel. Saya juga bisa menggunakan Javascript dasar dan AJAX serta Jquery.
+					</p>
+					<p>
+						Saya memiliki kesehatan yang baik, tidak memiliki penyakit khusus, bebas dari rokok, dan narkoba. Saya juga tidak memiliki riwayat kriminal.
+					</p>
+				</div>
+				<div class="col-lg">
+					<p>
+						Kelebihan saya adalah semangat dalam bekerja, pantang menyerah dalam setiap cobaan, tekad kuat dalam bekerja, tekun, siap menerima ilmu yang bermanfaat, cepat dalam belajar, dan jujur.
+					</p>
+
+					<p>
+						Diluar dari ilmu pemrograman, saya terampil dalam menggunakan aplikasi Adobe Photoshop dan Microsoft Word.
+						Bahasa yang saya gunakan sehari - hari adalah bahasa Indonesia. Saya juga bisa menggunakan bahasa Inggris secara pasif.
+					</p>
+					
+				</div>
+				<div class="offset-lg-2"></div>
+			</div>
+		</div>
+	</section>
+
+	<section class="portfolio bg-light text-dark py-4" id="portfolio">
+		<div class="container">
+			<h1 class="text-center title">Portfolio</h1>
+			<div class="boxThumbnail row">
+				<a href="1" class="col-6 col-lg-4 thumbnail a" data-toggle="modal" data-target="#modal-portfolio">
+					<img src="img/portfolio/1.jpg">
+				</a>
+				<a href="2"class="col-6 col-lg-4 thumbnail b" data-toggle="modal" data-target="#modal-portfolio">
+					<img src="img/portfolio/2.jpg">
+				</a>
+				<a href="3"class="col-6 col-lg-4 thumbnail c" data-toggle="modal" data-target="#modal-portfolio">
+					<img src="img/portfolio/3.jpg">
+				</a>
+				<a href="4"class="col-6 col-lg-4 thumbnail d" data-toggle="modal" data-target="#modal-portfolio">
+					<img src="img/portfolio/4.jpg">
+				</a>
+				<a href="5"class="col-6 col-lg-4 thumbnail e" data-toggle="modal" data-target="#modal-portfolio">
+					<img src="img/portfolio/5.jpg">
+				</a>
+				<a href="6"class="col-6 col-lg-4 thumbnail f" data-toggle="modal" data-target="#modal-portfolio">
+					<img src="img/portfolio/6.jpg">
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="contact bg-light py-4" id="contact">
+		<div class="container">
+			<h1 class="text-center title">Contact</h1>
+			<div class="form-group">
+				<label for="name">Name</label>
+				<input type="text" class="form-control" id="name" placeholder="Input Your Name">
+			</div>
+			<div class="form-group">
+				<label for="email">Email address</label>
+				<input type="email" class="form-control" id="email" placeholder="Input Your Email Address">
+			</div>
+			<div class="form-group">
+				<label for="company">Company</label>
+				<input type="text" class="form-control" id="company" placeholder="Input Your Company">
+			</div>
+			<div class="form-group">
+				<label for="text">What's Your Question!</label>
+				<textarea name="text" id="text" class="form-control" cols="30" rows="15" placeholder="Input Your Question!"></textarea>
+			</div>
+			<div class="form-group">
+				<button class="btn btn-block submit">Submit</button>
+			</div>
+		</div>
+	</section>
+
+	<section class="footer" id="footer">
+		<div class="footer bg-light py-1 text-center">
+			<p>&copy;Copyright 2019</p>
+		</div>
+	</section>
+
+	<!-- Modal-portfolio-->
+	<div class="modal fade" id="modal-portfolio" tabindex="-1" role="dialog" aria-labelledby="titleModal" aria-hidden="true">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="titleModal">Detail Project</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-lg-4 detailFoto a">
+							<img src="img/portfolio/1.jpg">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, reiciendis.</p>
+						</div>
+						<div class="col-lg-4 detailFoto b">
+							<img src="img/portfolio/1.jpg">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum sed, recusandae libero!</p>
+						</div>
+						<div class="col-lg-4 detailFoto c">
+							<img src="img/portfolio/1.jpg">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+						<div class="col-lg-4 detailFoto d">
+							<img src="img/portfolio/1.jpg">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore iure, sit sint nesciunt!</p>
+						</div>
+						<div class="col-lg-4 detailFoto e">
+							<img src="img/portfolio/1.jpg">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At.</p>
+						</div>
+						<div class="col-lg-4 detailFoto f">
+							<img src="img/portfolio/1.jpg">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, maiores. Eaque maxime hic dolore voluptatibus?</p>
+						</div>
+					</div>
+					<div class="p text-justify">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam cupiditate incidunt suscipit voluptates aspernatur eaque laborum a hic, ad laboriosam, unde eius. Deserunt voluptatem voluptas corrupti sunt modi, deleniti aliquid.</p>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="js/jquery-3.4.1.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

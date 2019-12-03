@@ -1,0 +1,250 @@
+{
+	"portfolio":
+	[
+		{
+
+
+
+
+
+			
+			"id":1,
+			"ket": "<p>Ini Deskripsi nya</p><ul><li>LIST 1</li><li>LIST 2</li><li>LIST 3</li></ul>",
+			"files":
+			[
+				{
+					"thumbs":"1.jpg",
+					"keterangan":"Ini Tampilan dari form login"
+				},
+				{
+					"thumbs":"1.jpg",
+					"keterangan":"Ini Tampilan dari form tambah"
+				},
+				{
+					"thumbs":"1.jpg",
+					"keterangan":"Ini Tampilan dari form ubah"
+				},
+				{
+					"thumbs":"1.jpg",
+					"keterangan":"Ini Tampilan dari dashboard"
+				},
+				{
+					"thumbs":"1.jpg",
+					"keterangan":"Ini Tampilan dari tabel data"
+				},
+				{
+					"thumbs":"1.jpg",
+					"keterangan":"Ini Tampilan dari menu"
+				}
+			]
+		},
+
+
+
+
+
+
+
+
+
+		{
+			"id":2,
+			"ket":["Ini keterangan nyaaaaa"],
+			"files":
+			[
+				{
+					"thumbs":"2.jpg",
+					"keterangan":"Ini Tampilan dari form login"
+				},
+				{
+					"thumbs":"2.jpg",
+					"keterangan":"Ini Tampilan dari form tambah"
+				},
+				{
+					"thumbs":"2.jpg",
+					"keterangan":"Ini Tampilan dari form ubah"
+				},
+				{
+					"thumbs":"2.jpg",
+					"keterangan":"Ini Tampilan dari dashboard"
+				},
+				{
+					"thumbs":"2.jpg",
+					"keterangan":"Ini Tampilan dari tabel data"
+				},
+				{
+					"thumbs":"2.jpg",
+					"keterangan":"Ini Tampilan dari menu"
+				}
+			]
+		},
+
+
+
+
+
+
+
+
+
+
+
+
+
+		{
+			"id":3,
+			"ket":["Ini keterangan nyaaaaa"],
+			"files":
+			[
+				{
+					"thumbs":"3.jpg",
+					"keterangan":"Ini Tampilan dari form login"
+				},
+				{
+					"thumbs":"3.jpg",
+					"keterangan":"Ini Tampilan dari form tambah"
+				},
+				{
+					"thumbs":"3.jpg",
+					"keterangan":"Ini Tampilan dari form ubah"
+				},
+				{
+					"thumbs":"3.jpg",
+					"keterangan":"Ini Tampilan dari dashboard"
+				},
+				{
+					"thumbs":"3.jpg",
+					"keterangan":"Ini Tampilan dari tabel data"
+				},
+				{
+					"thumbs":"3.jpg",
+					"keterangan":"Ini Tampilan dari menu"
+				}
+			]
+		},
+
+
+
+
+
+
+
+
+
+
+
+
+		{
+			"id":4,
+			"ket":["Ini keterangan nyaaaaa"],
+			"files":
+			[
+				{
+					"thumbs":"4.jpg",
+					"keterangan":"Ini Tampilan dari form login"
+				},
+				{
+					"thumbs":"4.jpg",
+					"keterangan":"Ini Tampilan dari form tambah"
+				},
+				{
+					"thumbs":"4.jpg",
+					"keterangan":"Ini Tampilan dari form ubah"
+				},
+				{
+					"thumbs":"4.jpg",
+					"keterangan":"Ini Tampilan dari dashboard"
+				},
+				{
+					"thumbs":"4.jpg",
+					"keterangan":"Ini Tampilan dari tabel data"
+				},
+				{
+					"thumbs":"4.jpg",
+					"keterangan":"Ini Tampilan dari menu"
+				}
+			]
+		},
+
+
+
+
+
+
+
+
+
+		{
+			"id":5,
+			"ket":["Ini keterangan nyaaaaa"],
+			"files":
+			[
+				{
+					"thumbs":"5.jpg",
+					"keterangan":"Ini Tampilan dari form login"
+				},
+				{
+					"thumbs":"5.jpg",
+					"keterangan":"Ini Tampilan dari form tambah"
+				},
+				{
+					"thumbs":"5.jpg",
+					"keterangan":"Ini Tampilan dari form ubah"
+				},
+				{
+					"thumbs":"5.jpg",
+					"keterangan":"Ini Tampilan dari dashboard"
+				},
+				{
+					"thumbs":"5.jpg",
+					"keterangan":"Ini Tampilan dari tabel data"
+				},
+				{
+					"thumbs":"5.jpg",
+					"keterangan":"Ini Tampilan dari menu"
+				}
+			]
+		},
+
+
+
+
+
+
+
+
+
+
+		{
+			"id":6,
+			"ket":["Ini keterangan nyaaaaa"],
+			"files":
+			[
+				{
+					"thumbs":"6.jpg",
+					"keterangan":"Ini Tampilan dari form login"
+				},
+				{
+					"thumbs":"6.jpg",
+					"keterangan":"Ini Tampilan dari form tambah"
+				},
+				{
+					"thumbs":"6.jpg",
+					"keterangan":"Ini Tampilan dari form ubah"
+				},
+				{
+					"thumbs":"6.jpg",
+					"keterangan":"Ini Tampilan dari dashboard"
+				},
+				{
+					"thumbs":"6.jpg",
+					"keterangan":"Ini Tampilan dari tabel data"
+				},
+				{
+					"thumbs":"6.jpg",
+					"keterangan":"Ini Tampilan dari menu"
+				}
+			]
+		}
+	]
+}
