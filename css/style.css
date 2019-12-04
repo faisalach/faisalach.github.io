@@ -189,11 +189,7 @@
 	border-top: 1px solid #dbdbdb;
 	padding-top: 20px;
 }
-.color{
-	color: white;
-	background-color: rgb(120,120,220);
-}
-.contact .box:hover .circleBox{
+.contact .box:hover .circleBox,.color{
 	color: white;
 	background-color: rgb(120,120,220);
 }
@@ -256,27 +252,6 @@
 	min-height: 800px;
 }
 
-
-@media(max-width: 991px){
-	.header .carousel .carousel-item{
-		height: 300px;
-	}
-	.header .carousel .carousel-item h1{
-		font-size: 2rem;
-	}
-	.header .carousel .carousel-item h3{
-		font-size: 1rem;
-	}
-	.header .carousel .carousel1{
-		padding: 150px 10% 0 40%;
-	}
-	.header .carousel .carousel2{
-		padding: 100px 45% 0 10%;
-	}
-	.header .carousel .carousel3{
-		padding: 40px 10% 0 40%;
-	}
-}
 @media(max-width: 778px){
 	.contact .box{
 		margin-left: 50px;
@@ -285,6 +260,11 @@
 	.contact .box .content {
 		opacity: 1;
 		width: 300px;
+
+	}
+	.contact .box{
+		color: white;
+		background-color: rgb(120,120,220);
 	}
 }
 @media(max-width: 480px){
