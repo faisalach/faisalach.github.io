@@ -34,7 +34,10 @@ $(window).on('scroll',function(){
 		$('#portfolio .thumbnail').addClass('show');	
 	}
 
-	if (scroll > $('#contact').offset().top-51) {
+	if (scroll > $('#skill').offset().top-51) {
+		$('.nav-link').removeClass('text-warning');
+		$('.skill-link').addClass('text-warning');
+	}else if (scroll > $('#contact').offset().top-51) {
 		$('.nav-link').removeClass('text-warning');
 		$('.contact-link').addClass('text-warning');
 	}else if(scroll > $('#portfolio').offset().top-51){
@@ -49,18 +52,13 @@ $(window).on('scroll',function(){
 
 });
 
-function showTitle() {
-	setTimeout(function(){
-		$('.carousel h1').addClass('show');
-		$('.carousel h3').addClass('show');
-	},500);
-}
 
-$(window).on('load',showTitle());
-$('.ctrl').on('click',function(){
-	$('.carousel h1').removeClass('show');
-	$('.carousel h3').removeClass('show');
-	showTitle();
+$('.contact .box').hover(function() {
+	if ($(this).children().hasClass('show')) {
+		$(this).children().removeClass('show')
+	}else{
+		$(this).children().addClass('show');
+	}
 });
 
 $('.thumbnail').on('click',function(e){

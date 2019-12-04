@@ -1,11 +1,12 @@
 .title{
+	color: rgb(120,120,220);
 	font-weight: 300;
 }
 .title::after{
 	content: "";
 	display: block;
-	width: 150px;
-	border-top: .5px solid black;
+	width: 200px;
+	border-top: 2px solid rgb(120,120,220);
 	margin: 10px auto 54px;
 }
 .navbar{
@@ -47,7 +48,7 @@
 	z-index: 2;
 }
 .jumbotron .img img{
-	margin-top: 40px;
+	margin-top: 70px;
 	width: 250px;
 	height: 250px;
 	border-radius: 50%;
@@ -112,6 +113,9 @@
 	top: -50px;
 	right: -50px;
 }
+#skill{
+	background-image: linear-gradient(rgba(120,120,220,.7),rgba(120,120,220,.5),rgba(120,120,220,0));
+}
 
 #portfolio{
 	background-image: linear-gradient(rgba(120,120,220,0),rgba(120,120,220,.5),rgba(120,120,220,.7),rgba(120,120,220,.5),rgba(120,120,220,0));
@@ -161,7 +165,7 @@
 .portfolio .thumbnail{
 	padding: 0;
 	overflow: hidden;
-	height: 220px;
+	max-height: 220px;
 	opacity: 0;
 	transition: 1s;
 	position: relative;
@@ -185,14 +189,71 @@
 	border-top: 1px solid #dbdbdb;
 	padding-top: 20px;
 }
-
-.contact .submit{
-	border: 1px solid rgb(120,120,220);
+.color{
+	color: white;
+	background-color: rgb(120,120,220);
+}
+.contact .box:hover .circleBox{
+	color: white;
+	background-color: rgb(120,120,220);
+}
+.skill .box .circleBox{
+	margin: 0 auto 20px;
+}
+.skill .box{
+	margin: 0 auto 20px;
+}
+.skill .box p{
+	margin: auto;
+	max-width: 300px;
+}
+.contact .box,.skill .box .circleBox{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 3px solid rgb(120,120,220);
+}
+.contact .box{
+	position: relative;
+	margin: 20px auto;
 	color: rgb(120,120,220);
 }
-.contact .submit:hover{
-	background-color: rgb(120,120,220);
-	color: white;
+.contact .box .circleBox{
+	transition: .7s;
+	overflow: hidden;
+	left: -3px;
+	top: -3px;
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+	border-radius: 50%;
+	z-index: 2;
+	position: relative;
+}
+
+.contact .box .content{
+	color: rgb(120,120,220);
+	opacity: 0;
+	z-index: 1;
+	padding: 20px;
+	border-right: 3px solid rgb(120,120,220);
+	border-bottom: 3px solid rgb(120,120,220);
+	border-top: 3px solid rgb(120,120,220);
+	height: 100px;
+	width: 50px;
+	position: absolute;
+	top: -3px;
+	left: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	transition: .7s;
+}
+.contact .box .content.show {
+	opacity: 1;
+	width: 300px;
+}
+.contact{
+	min-height: 800px;
 }
 
 
@@ -214,5 +275,31 @@
 	}
 	.header .carousel .carousel3{
 		padding: 40px 10% 0 40%;
+	}
+}
+@media(max-width: 778px){
+	.contact .box{
+		margin-left: 50px;
+		margin-right: 0px;
+	}
+	.contact .box .content {
+		opacity: 1;
+		width: 300px;
+	}
+}
+@media(max-width: 480px){
+	.contact .box,.contact .box .circleBox{
+		width: 80px;
+		height: 80px;
+	}
+	.contact .box{
+		margin-left: 0;
+	}
+	.contact .box .content {
+		opacity: 1;
+		width: 300%;
+		height: 80px;
+		left: 40px;
+		padding: 10px;
 	}
 }
