@@ -1,3 +1,28 @@
+@font-face{
+	src : url('../font-poppins/Poppins-Black.ttf');
+	font-family: Poppins Black;
+}
+@font-face{
+	src : url('../font-poppins/Poppins-Light.ttf');
+	font-family: Poppins Light;
+}
+@font-face{
+	src : url('../font-poppins/Poppins-Medium.ttf');
+	font-family: Poppins Medium;
+}
+@font-face{
+	src : url('../font-poppins/Poppins-Regular.ttf');
+	font-family: Poppins Regular;
+}
+*{
+	font-family: Poppins Light;
+}
+h1{
+	font-family: Poppins Medium;
+}
+.jumbotron h3{
+	font-family: Poppins Medium;
+}
 .title{
 	color: rgb(120,120,220);
 	font-weight: 300;
