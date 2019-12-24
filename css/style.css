@@ -16,7 +16,6 @@
 	top: 30px;
 	z-index: 10;
 	transition: .2s;
-
 }
 .navbar.fixed{
 	position: fixed;
@@ -30,7 +29,8 @@
 .jumbotron{
 	background-image: url('../img/jumbotron/1.jpg');
 	background-size: cover;
-	min-height: 500px;
+	background-repeat: no-repeat;
+	min-height: 600px;
 	margin-bottom: 0;
 	position: relative;
 }
@@ -47,13 +47,17 @@
 	position: relative;
 	z-index: 2;
 }
-.jumbotron .img img{
+.jumbotron .img{
+	display: inline-block;
+	overflow: hidden;
 	margin-top: 70px;
-	width: 250px;
 	height: 250px;
 	border-radius: 50%;
 	border: 5px solid white;
 	box-shadow: 0px 0px 10px 1px rgba(0,0,0,.5);
+}
+.jumbotron .img,.jumbotron .img img{
+	width: 250px;
 }
 .jumbotron{
 	text-shadow: 0px 0px 10px rgba(0,0,0,.5);
@@ -189,15 +193,37 @@
 	border-top: 1px solid #dbdbdb;
 	padding-top: 20px;
 }
-.contact .box:hover .circleBox,.color{
+.color{
 	color: white;
 	background-color: rgb(120,120,220);
 }
+.no-color{
+	color: rgb(120,120,220);
+}
 .skill .box .circleBox{
 	margin: 0 auto 20px;
+	transform: rotate(270deg);
+	transition: 1s;
+	padding-top: 3px;
+
+}
+i{
+	margin-top: 18px;
+	font-size: 3.3rem;
 }
 .skill .box{
+	position: relative;
+	left: 200px;
 	margin: 0 auto 20px;
+	opacity: 0;
+	transition: 1s;
+}
+.skill .box.show{
+	left: 0;
+	opacity: 1;
+}
+.skill .box.show .circleBox{
+	transform: rotate(0deg);
 }
 .skill .box p{
 	margin: auto;
@@ -210,9 +236,15 @@
 	border: 3px solid rgb(120,120,220);
 }
 .contact .box{
+	opacity: 0;
 	position: relative;
+	top: 100px;
 	margin: 20px auto;
-	color: rgb(120,120,220);
+	transition: .5s;
+}
+.contact .box.show{
+	top: 0;
+	opacity: 1;
 }
 .contact .box .circleBox{
 	transition: .7s;
@@ -242,7 +274,7 @@
 	left: 50px;
 	border-top-right-radius: 50px;
 	border-bottom-right-radius: 50px;
-	transition: .7s;
+	transition: .5s;
 }
 .contact .box .content.show {
 	opacity: 1;
@@ -250,35 +282,36 @@
 }
 .contact{
 	min-height: 800px;
+	overflow: hidden;
 }
 
-@media(max-width: 778px){
+@media(max-width: 767px){
 	.contact .box{
 		margin-left: 50px;
 		margin-right: 0px;
+		background-color: rgb(120,120,220);
+	}
+	.contact .box i{
+		color: white !important;
 	}
 	.contact .box .content {
 		opacity: 1;
 		width: 300px;
-
-	}
-	.contact .box{
-		color: white;
-		background-color: rgb(120,120,220);
 	}
 }
 @media(max-width: 480px){
-	.contact .box,.contact .box .circleBox{
-		width: 80px;
-		height: 80px;
+	.navbar{
+		top: 15px;
 	}
 	.contact .box{
 		margin-left: 0;
 	}
+	.contact .box .content.show {
+		opacity: 1;
+	}
 	.contact .box .content {
 		opacity: 1;
-		width: 300%;
-		height: 80px;
+		width: 300px;
 		left: 40px;
 		padding: 10px;
 	}
