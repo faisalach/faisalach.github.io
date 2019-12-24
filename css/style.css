@@ -186,7 +186,7 @@ h1{
 	overflow: hidden;
 	margin-bottom: 50px;
 	opacity: 0;
-	transition: 1s;
+	transition: .5s;
 }
 .portfolio .boxThumbnail.show{
 	opacity: 1;
@@ -228,7 +228,7 @@ h1{
 .skill .box .circleBox{
 	margin: 0 auto 20px;
 	transform: rotate(270deg);
-	transition: 1s;
+	transition: .5s;
 	padding-top: 3px;
 
 }
@@ -241,7 +241,7 @@ i{
 	left: 200px;
 	margin: 0 auto 20px;
 	opacity: 0;
-	transition: 1s;
+	transition: .5s;
 }
 .skill .box.show{
 	left: 0;
@@ -265,14 +265,14 @@ i{
 	position: relative;
 	top: 100px;
 	margin: 20px auto;
-	transition: .5s;
+	transition: .2s;
 }
 .contact .box.show{
 	top: 0;
 	opacity: 1;
 }
 .contact .box .circleBox{
-	transition: .7s;
+	transition: .5s;
 	overflow: hidden;
 	left: -3px;
 	top: -3px;
