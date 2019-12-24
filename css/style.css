@@ -17,11 +17,13 @@
 *{
 	font-family: Poppins Light;
 }
-h1{
+h1,.jumbotron h3{
 	font-family: Poppins Medium;
 }
-.jumbotron h3{
+.navbar-brand{
 	font-family: Poppins Medium;
+	font-weight: 500;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.5);
 }
 .title{
 	color: rgb(120,120,220);
