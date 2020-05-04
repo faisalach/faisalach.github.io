@@ -70,7 +70,7 @@ body{
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-image: linear-gradient(rgba(10,30,100,.1),rgba(10,30,100,.5),rgba(10,30,100,.7));
+	background-image: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.5),rgba(0,0,0,.7));
 	z-index: 1;
 }
 .jumbotron .content{
@@ -148,11 +148,14 @@ body{
 	right: -50px;
 }
 #skill{
-	background-image: linear-gradient(rgba(120,120,220,.7),rgba(120,120,220,.5),rgba(120,120,220,0));
+	background-color: #eaeaea;
+}
+#about{
+	box-shadow: 3px 0px 10px 10px rgba(150,150,220,.5);
 }
 
 #portfolio{
-	background-image: linear-gradient(rgba(120,120,220,0),rgba(120,120,220,.5),rgba(120,120,220,.7),rgba(120,120,220,.5),rgba(120,120,220,0));
+	background-color: #eaeaea;
 }
 #portfolio.portfolio .title::after{
 	border-color: rgb(150,150,220);
@@ -160,34 +163,15 @@ body{
 .portfolio .thumbnail img::after{
 	content: "";
 }
-.portfolio .thumbnail.a{
-	transform: translate(50px,200px);
-}
-.portfolio .thumbnail.b{
-	transform: translate(0px,200px);
-}
-.portfolio .thumbnail.c{
-	transform: translate(-50px,200px);
-}
-.portfolio .thumbnail.d{
-	transform: translate(50px,100px);
-}
-.portfolio .thumbnail.e{
-	transform: translate(0px,100px);
-}
-.portfolio .thumbnail.f{
-	transform: translate(-50px,100px);
-}
+
 .portfolio .thumbnail.show{
 	opacity: 1;
-	transform: translate(0,0);
 }
 .portfolio .thumbnail img{
 	width: 100%;
+	max-height: 220px;
 }
 .portfolio .boxThumbnail{
-	box-shadow: 0px 0px 10px 4px rgba(120,120,220,.5);
-	border-radius: 5px;
 	overflow: hidden;
 	margin-bottom: 50px;
 	opacity: 0;
@@ -199,13 +183,18 @@ body{
 .portfolio .thumbnail{
 	padding: 0;
 	overflow: hidden;
-	max-height: 220px;
 	opacity: 0;
 	transition: 1s;
 	position: relative;
 }
 .portfolio .thumbnail img:hover{
 	opacity: .5;
+}
+.portfolio .thumbnail:hover .portfolio-title{
+	text-decoration: none;
+}
+.portfolio .boxTitle{
+	height: 80px;
 }
 
 .detailFoto{
@@ -315,6 +304,10 @@ i{
 	overflow: hidden;
 }
 
+.footer{
+	background-color: rgb(100,100,220) !important;
+	color: white;
+}
 @media(max-width: 767px){
 	.contact .box{
 		margin-left: 50px;

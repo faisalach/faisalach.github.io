@@ -2,14 +2,15 @@
 	"portfolio":
 	[
 		{
-
-			
 			"id":1,
-			"ket": "<h5>Aplikasi Catatan Pelanggaran Siswa</h5>",
+			"title": "Aplikasi Catatan Pelanggaran Siswa",
+			"ket": "Aplikasi Catatan Pelanggaran Siswa",
+			"paragraf": "Aplikasi Catatan Pelanggaran Siswa",
+			"thumbnail":"cagar_siswa.PNG",
 			"files":
 			[
 				{
-					"thumbs":"cagar_siswa.PNG",
+					"foto":"cagar_siswa.PNG",
 					"keterangan":"Gambar"
 				}
 			]
@@ -25,11 +26,14 @@
 
 		{
 			"id":2,
-			"ket":"<h5>Aplikasi Peminjaman Buku Perpustakaan</h5>",
+			"title": "Aplikasi Peminjaman Buku Perpustakaan",
+			"ket":"Aplikasi Peminjaman Buku Perpustakaan",
+			"paragraf":"Aplikasi Peminjaman Buku Perpustakaan",
+			"thumbnail":"peminjaman_buku.PNG",
 			"files":
 			[
 				{
-					"thumbs":"peminjaman_buku.PNG",
+					"foto":"peminjaman_buku.PNG",
 					"keterangan":"Gambar"
 				}
 			]
@@ -49,11 +53,14 @@
 
 		{
 			"id":3,
-			"ket":"<h5>Aplikasi Penilaian Siswa</h5>",
+			"title": "Aplikasi Penilaian Siswa",
+			"ket":"Aplikasi Penilaian Siswa",
+			"paragraf":"Aplikasi Penilaian Siswa",
+			"thumbnail":"penilaian_siswa.PNG",
 			"files":
 			[
 				{
-					"thumbs":"penilaian_siswa.PNG",
+					"foto":"penilaian_siswa.PNG",
 					"keterangan":"Gambar"
 				}
 			]
@@ -72,11 +79,14 @@
 
 		{
 			"id":4,
-			"ket":"<h5>Aplikasi Pengaduan Kendala</h5> <p>Dipakai oleh salah satu Lembaga negara</p>",
+			"title": "Aplikasi Pengaduan Kendala",
+			"ket":"Dipakai oleh salah satu Lembaga negara",
+			"paragraf":"Dipakai oleh salah satu Lembaga negara",
+			"thumbnail":"pengaduan.PNG",
 			"files":
 			[
 				{
-					"thumbs":"pengaduan.PNG",
+					"foto":"pengaduan.PNG",
 					"keterangan":"Gambar"
 				}
 			]
@@ -92,11 +102,14 @@
 
 		{
 			"id":5,
-			"ket":"<h5>Template untuk portfolio / company profile</p>",
+			"title": "Template untuk portfolio / company profile",
+			"ket":"Template untuk portfolio / company profile",
+			"paragraf":"Template untuk portfolio / company profile",
+			"thumbnail":"portfolio_template.PNG",
 			"files":
 			[
 				{
-					"thumbs":"portfolio_template.PNG",
+					"foto":"portfolio_template.PNG",
 					"keterangan":"Gambar"
 				}
 			]
@@ -113,11 +126,14 @@
 
 		{
 			"id":6,
-			"ket":"<h5>Template untuk portfolio / company profile</h5>",
+			"title": "Template untuk portfolio / company profile",
+			"ket":"Template untuk portfolio / company profile",
+			"paragraf":"Template untuk portfolio / company profile",
+			"thumbnail":"profile_template.PNG",
 			"files":
 			[
 				{
-					"thumbs":"profile_template.PNG",
+					"foto":"profile_template.PNG",
 					"keterangan":"Gambar"
 				}
 			]

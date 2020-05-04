@@ -81,33 +81,63 @@ $('.contact .box').hover(function() {
 	}
 });
 
-$('.thumbnail').on('click',function(e){
+$('#portfolio .boxThumbnail').on('click','.thumbnail',function(e){
 	e.preventDefault();
+	$('#modal-portfolio').modal('show');
 	var id = $(this).attr('href');
 	$.getJSON('data/portfolio.json',function(data) {
-
 		var portfolio = data.portfolio;
 		for (var i = 0; i < portfolio.length; i++) {
 			var index = portfolio[i].id;
 			if (id == index) {
-				var html = '<div class="row">';
+				var html 	= '<div class="row justify-content-center">';
 				var loopImg = portfolio[i].files;			
 
 				for (var k = 0; k < loopImg.length; k++) {
 					html +=
 					'<div class="col-lg-4 detailFoto">'+
-					'<img src="img/portfolio/'+loopImg[k].thumbs+'">'+
+					'<img src="img/portfolio/'+loopImg[k].foto+'">'+
 					'<p>'+loopImg[k].keterangan+'</p>'+
 					'</div>';
 				}
 				html +=
 				'</div>'
 				+ '<div class="text-justify">'
-				+ portfolio[i].ket;
+				+ portfolio[i].paragraf;
 				+ '</div>';
+				$('#titleModal').html(portfolio[i].title);
 			}
 		}
 		$('.modal-body').html(html);
 	})
 });
+
+
+$.getJSON('data/portfolio.json',function(data) {
+
+	var portfolio = data.portfolio;
+	html	= '';
+	for (var i = 0; i < portfolio.length; i++) {
+		var id 		= portfolio[i].id;
+		var thumb 	= portfolio[i].thumbnail;
+		var title 	= portfolio[i].title;
+		var ket 	= portfolio[i].ket;
+
+		html += `
+		<a href="${id}"class="col-12 col-sm-6 col-lg-4 thumbnail p-2">
+		<img src="img/portfolio/${thumb}">
+		<div class="bg-white p-2 border-top boxTitle shadow">
+		<p class="text-dark m-0 portfolio-title">
+		${title}
+		<br />
+		<small>
+		${ket}
+		</small>
+		</p>
+		</div>
+		</a>`;
+
+	}
+	$('#portfolio .boxThumbnail').html(html);
+})
 
