@@ -3,16 +3,37 @@
 	[
 		{
 			"id":1,
-			"title": "Aplikasi Catatan Pelanggaran Siswa",
-			"ket": "Aplikasi Catatan Pelanggaran Siswa",
-			"paragraf": "Aplikasi Catatan Pelanggaran Siswa",
-			"thumbnail":"cagar_siswa.PNG",
+			"title": "Aplikasi Laundry",
+			"ket": "Full Development",
+			"paragraf": "Dibuat untuk mengikuti uji kompetensi sekolah.<br /><br />Spesifikasi <ul><li>Laravel 6</li><li>Bootstrap 4</li><li>Admin LTE 3</li><li>Font Awesome</li><li>MySQL</li><li>Sweetalert 2</li><li>DataTable Serverside</li></ul>",
+			"thumbnail":"laundry_laravel/login.png",
 			"files":
 			[
 				{
-					"foto":"cagar_siswa.PNG",
-					"keterangan":"Gambar"
+					"foto":"laundry_laravel/login.png",
+					"keterangan":"Halaman Login"
+				},
+				{
+					"foto":"laundry_laravel/dashboard-admin.png",
+					"keterangan":"Halaman Dashboard"
+				},
+				{
+					"foto":"laundry_laravel/manajemen-transaksi.png",
+					"keterangan":"Halaman Manajemen Transaksi"
+				},
+				{
+					"foto":"laundry_laravel/tambah-transaksi.png",
+					"keterangan":"Halaman Tambah Transaksi"
+				},
+				{
+					"foto":"laundry_laravel/manajemen-toko.png",
+					"keterangan":"Halaman Manajemen Toko"
+				},
+				{
+					"foto":"laundry_laravel/laporan.png",
+					"keterangan":"Halaman Laporan"
 				}
+				
 			]
 		},
 
@@ -26,15 +47,31 @@
 
 		{
 			"id":2,
-			"title": "Aplikasi Peminjaman Buku Perpustakaan",
-			"ket":"Aplikasi Peminjaman Buku Perpustakaan",
-			"paragraf":"Aplikasi Peminjaman Buku Perpustakaan",
-			"thumbnail":"peminjaman_buku.PNG",
+			"title": "Pembuatan Laporan",
+			"ket":"Full Development",
+			"paragraf":"Request By Client. <br /><br />Spesifikasi <ul><li>Codeigniter 3</li><li>MySQL</li><li>MPDF</li></ul>",
+			"thumbnail":"laporan/posyandu.png",
 			"files":
 			[
 				{
-					"foto":"peminjaman_buku.PNG",
-					"keterangan":"Gambar"
+					"foto":"laporan/posyandu.png",
+					"keterangan":"Laporan Posyandu"
+				},
+				{
+					"foto":"laporan/pelayanan.png",
+					"keterangan":"Laporan Pelayanan"
+				},
+				{
+					"foto":"laporan/tenaga-medis.png",
+					"keterangan":"Laporan Tenaga Medis"
+				},
+				{
+					"foto":"laporan/tenaga-penunjang.png",
+					"keterangan":"Laporan Tenaga Penunjang"
+				},
+				{
+					"foto":"laporan/wdp.png",
+					"keterangan":"Laporan Wilayah, Desa dan Penduduk"
 				}
 			]
 		},
@@ -53,15 +90,35 @@
 
 		{
 			"id":3,
-			"title": "Aplikasi Penilaian Siswa",
-			"ket":"Aplikasi Penilaian Siswa",
-			"paragraf":"Aplikasi Penilaian Siswa",
-			"thumbnail":"penilaian_siswa.PNG",
+			"title": "Aplikasi Pariwisata",
+			"ket":"Native To Codeigniter3",
+			"paragraf":"Request By Client. <br /><br />Spesifikasi <ul><li>Codeigniter 3</li><li>Bootstrap 4</li><li>SB Admin</li><li>Sweetalert 2</li><li>Font Awesome</li><li>MySQL</li></ul>",
+			"thumbnail":"pariwisata/landing.png",
 			"files":
 			[
 				{
-					"foto":"penilaian_siswa.PNG",
-					"keterangan":"Gambar"
+					"foto":"pariwisata/landing.png",
+					"keterangan":"Landing Page"
+				},
+				{
+					"foto":"pariwisata/login.png",
+					"keterangan":"Halaman Login"
+				},
+				{
+					"foto":"pariwisata/dashboard.png",
+					"keterangan":"Halaman Dashboard"
+				},
+				{
+					"foto":"pariwisata/manajemen-wisata.png",
+					"keterangan":"Halaman Manajemen"
+				},
+				{
+					"foto":"pariwisata/wisata.png",
+					"keterangan":"Halaman Informasi"
+				},
+				{
+					"foto":"pariwisata/rate+comment.png",
+					"keterangan":"Fitur Penilaian dan Komentar"
 				}
 			]
 		},
@@ -80,14 +137,34 @@
 		{
 			"id":4,
 			"title": "Aplikasi Pengaduan Kendala",
-			"ket":"Dipakai oleh salah satu Lembaga negara",
-			"paragraf":"Dipakai oleh salah satu Lembaga negara",
-			"thumbnail":"pengaduan.PNG",
+			"ket":"Full Development",
+			"paragraf":"Dibuat saat melakukan praktek kerja lapangan. <br /><br />Spesifikasi <ul><li>PHP 7 Native</li><li>Bootstrap 4</li><li>PHP Mailer</li><li>MySQL</li></ul>",
+			"thumbnail":"pengaduan/login.png",
 			"files":
 			[
 				{
-					"foto":"pengaduan.PNG",
-					"keterangan":"Gambar"
+					"foto":"pengaduan/login.png",
+					"keterangan":"Halaman Login"
+				},
+				{
+					"foto":"pengaduan/dashboard.png",
+					"keterangan":"Halaman Dashboard"
+				},
+				{
+					"foto":"pengaduan/form_pengaduan.png",
+					"keterangan":"Formulir Pengaduan"
+				},
+				{
+					"foto":"pengaduan/manajemen.png",
+					"keterangan":"Halaman Manajemen"
+				},
+				{
+					"foto":"pengaduan/notifikasi.png",
+					"keterangan":"Fitur Notifikasi"
+				},
+				{
+					"foto":"pengaduan/rekap.png",
+					"keterangan":"Rekap Data"
 				}
 			]
 		},
@@ -102,15 +179,35 @@
 
 		{
 			"id":5,
-			"title": "Template untuk portfolio / company profile",
-			"ket":"Template untuk portfolio / company profile",
-			"paragraf":"Template untuk portfolio / company profile",
-			"thumbnail":"portfolio_template.PNG",
+			"title": "Aplikasi Klaim Jatah Obat Pegawai",
+			"ket":"Full Development",
+			"paragraf":"Request By Client. <br /><br />Spesifikasi <ul><li>Codeigniter 3</li><li>Bootstrap 4</li><li>Admin LTE 2</li><li>PHP Excel Reader</li><li>Font Awesome</li><li>MySQL</li></ul>",
+			"thumbnail":"jatah_obat/login.png",
 			"files":
 			[
 				{
-					"foto":"portfolio_template.PNG",
-					"keterangan":"Gambar"
+					"foto":"jatah_obat/login.png",
+					"keterangan":"Halaman Login"
+				},
+				{
+					"foto":"jatah_obat/dashboard.png",
+					"keterangan":"Halaman Dashboard"
+				},
+				{
+					"foto":"jatah_obat/manajemen.png",
+					"keterangan":"Halaman Manajemen"
+				},
+				{
+					"foto":"jatah_obat/tambah.png",
+					"keterangan":"Halaman Tambah Klaim Obat"
+				},
+				{
+					"foto":"jatah_obat/import-excel.png",
+					"keterangan":"Fitur Import Excel"
+				},
+				{
+					"foto":"jatah_obat/dashb-pegawai.png",
+					"keterangan":"Halaman Pegawai"
 				}
 			]
 		},
@@ -126,17 +223,38 @@
 
 		{
 			"id":6,
-			"title": "Template untuk portfolio / company profile",
-			"ket":"Template untuk portfolio / company profile",
-			"paragraf":"Template untuk portfolio / company profile",
-			"thumbnail":"profile_template.PNG",
+			"title": "Aplikasi Ujian Online",
+			"ket":"Native To Codeigniter3",
+			"paragraf":"Request By Client. <br /><br />Spesifikasi <ul><li>Codeigniter 3</li><li>Bootstrap 4</li><li>Admin LTE 2</li><li>Font Awesome</li><li>MySQL</li></ul>",
+			"thumbnail":"ujianonline/login_siswa.png",
 			"files":
 			[
 				{
-					"foto":"profile_template.PNG",
-					"keterangan":"Gambar"
+					"foto":"ujianonline/login_siswa.png",
+					"keterangan":"Halaman Login Siswa"
+				},
+				{
+					"foto":"ujianonline/soal.png",
+					"keterangan":"Halaman Pengerjaan Soal"
+				},
+				{
+					"foto":"ujianonline/nilai.png",
+					"keterangan":"Halaman Nilai Siswa"
+				},
+				{
+					"foto":"ujianonline/login_admin.png",
+					"keterangan":"Halaman Login Admin"
+				},
+				{
+					"foto":"ujianonline/manajemen-soal.png",
+					"keterangan":"Halaman Manajemen Soal"
+				},
+				{
+					"foto":"ujianonline/penilaian.png",
+					"keterangan":"Halaman Penilaian Jawaban Siswa"
 				}
 			]
 		}
+
 	]
 }
