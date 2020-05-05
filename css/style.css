@@ -155,7 +155,11 @@ body{
 }
 
 #portfolio{
-	background-color: #eaeaea;
+	background-image: url('../img/jumbotron/9.jpg');
+	background-size: cover;
+}
+#portfolio .title{
+	color: white !important;
 }
 #portfolio.portfolio .title::after{
 	border-color: rgb(150,150,220);
@@ -170,6 +174,7 @@ body{
 .portfolio .thumbnail img{
 	width: 100%;
 	max-height: 220px;
+	opacity: .8;
 }
 .portfolio .boxThumbnail{
 	overflow: hidden;
@@ -188,7 +193,7 @@ body{
 	position: relative;
 }
 .portfolio .thumbnail img:hover{
-	opacity: .5;
+	opacity: 1;
 }
 .portfolio .thumbnail:hover .portfolio-title{
 	text-decoration: none;
