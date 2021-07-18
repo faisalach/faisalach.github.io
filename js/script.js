@@ -5,7 +5,7 @@ $('.nav-link').on('click',function(e) {
 	var tujuan = $(scroll);
 
 	$('html').animate({
-		scrollTop: tujuan.offset().top - 50
+		scrollTop: tujuan.offset().top - 150
 	},1000,'swing');
 	
 });
@@ -17,6 +17,8 @@ $('.btnShow').on('click',function(e) {
 
 });
 $('#contact').css({minHeight : $(window).height()+'px'});
+
+$('#year').html(new Date().getFullYear());
 
 $(window).on('scroll',function(){
 	var scroll = $(this).scrollTop();

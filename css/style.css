@@ -63,6 +63,7 @@ body{
 	min-height: 600px;
 	margin-bottom: 0;
 	position: relative;
+	background-attachment: fixed;
 }
 .jumbotron .gradient{
 	position: absolute;
@@ -149,20 +150,18 @@ body{
 }
 #skill{
 	background-color: #eaeaea;
+	overflow: hidden;
 }
 #about{
-	box-shadow: 3px 0px 10px 10px rgba(150,150,220,.5);
+	background-color: #eaeaea;
 }
 
 #portfolio{
-	background-image: url('../img/jumbotron/9.jpg');
-	background-size: cover;
-}
-#portfolio .title{
-	color: white !important;
-}
-#portfolio.portfolio .title::after{
-	border-color: rgb(150,150,220);
+	position: relative;
+	overflow: hidden;
+	box-shadow: 3px 0px 10px 10px rgba(150,150,220,.5);
+	/*background-image: url('../img/jumbotron/9.jpg');*/
+	/*background-size: cover;*/
 }
 .portfolio .thumbnail img::after{
 	content: "";
@@ -263,10 +262,8 @@ i{
 	opacity: 0;
 	position: relative;
 	top: 100px;
-	margin: 20px auto;
+	margin: 20px 0;
 	transition: .2s;
-}
-.contact .box.show{
 	top: 0;
 	opacity: 1;
 }
@@ -299,10 +296,8 @@ i{
 	border-top-right-radius: 50px;
 	border-bottom-right-radius: 50px;
 	transition: .5s;
-}
-.contact .box .content.show {
 	opacity: 1;
-	width: 300px;
+	width: 250px;
 }
 .contact{
 	min-height: 800px;
