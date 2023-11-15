@@ -1,6 +1,83 @@
 {
 	"portfolio":
 	[
+
+		
+
+		{
+			"id":8,
+			"title": "Sistem Manajemen Kendaraan",
+			"ket": "Full Development",
+			"paragraf": "Dibuat untuk memenuhi tugas perkuliahan.<br /><br />Spesifikasi <ul><li>Laravel 10</li><li>ReactJS</li><li>Tailwind</li><li>Flowbite</li><li>Font Awesome</li><li>MySQL</li><li>Sweetalert 2</li></ul>",
+			"thumbnail":"manajemen_kendaraan/login.png",
+			"files":
+			[
+				{
+					"foto":"manajemen_kendaraan/login.png",
+					"keterangan":"Halaman Login"
+				},
+				{
+					"foto":"manajemen_kendaraan/dashboard.png",
+					"keterangan":"Halaman Dashboard"
+				},
+				{
+					"foto":"manajemen_kendaraan/record_bbm.png",
+					"keterangan":"Halaman Catatan Pembelian BBM"
+				},
+				{
+					"foto":"manajemen_kendaraan/catatan.png",
+					"keterangan":"Halaman Catatan Pengeluaran Lain"
+				},
+				{
+					"foto":"manajemen_kendaraan/kendaraan.png",
+					"keterangan":"Halaman Kelola Kendaraan"
+				},
+				{
+					"foto":"manajemen_kendaraan/statistik.png",
+					"keterangan":"Halaman Laporan Statistik"
+				}
+				
+			]
+		},
+
+
+		{
+			"id":7,
+			"title": "Aplikasi POS",
+			"ket": "Full Development",
+			"paragraf": "Dibuat untuk memenuhi tugas perkuliahan.<br /><br />Spesifikasi <ul><li>Laravel 9</li><li>Tailwind</li><li>Flowbite</li><li>Font Awesome</li><li>MySQL</li><li>Sweetalert 2</li><li>DataTable Serverside</li></ul>",
+			"thumbnail":"pos/login.png",
+			"files":
+			[
+				{
+					"foto":"pos/login.png",
+					"keterangan":"Halaman Login"
+				},
+				{
+					"foto":"pos/dashboard.png",
+					"keterangan":"Halaman Dashboard"
+				},
+				{
+					"foto":"pos/kasir.png",
+					"keterangan":"Halaman Transaksi Kasir"
+				},
+				{
+					"foto":"pos/kelola_produk.png",
+					"keterangan":"Halaman Kelola Produk"
+				},
+				{
+					"foto":"pos/invoice.png",
+					"keterangan":"Invoice"
+				},
+				{
+					"foto":"pos/laporan.png",
+					"keterangan":"Halaman Laporan"
+				}
+				
+			]
+		},
+
+
 		{
 			"id":1,
 			"title": "Aplikasi Laundry",
