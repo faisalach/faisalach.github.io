@@ -9,31 +9,31 @@
 			"title": "Sistem Manajemen Kendaraan",
 			"ket": "Full Development",
 			"paragraf": "Dibuat untuk memenuhi tugas perkuliahan.<br /><br />Spesifikasi <ul><li>Laravel 10</li><li>ReactJS</li><li>Tailwind</li><li>Flowbite</li><li>Font Awesome</li><li>MySQL</li><li>Sweetalert 2</li></ul>",
-			"thumbnail":"manajemen_kendaraan/login.png",
+			"thumbnail":"manajemen_kendaraan/login.PNG",
 			"files":
 			[
 				{
-					"foto":"manajemen_kendaraan/login.png",
+					"foto":"manajemen_kendaraan/login.PNG",
 					"keterangan":"Halaman Login"
 				},
 				{
-					"foto":"manajemen_kendaraan/dashboard.png",
+					"foto":"manajemen_kendaraan/dashboard.PNG",
 					"keterangan":"Halaman Dashboard"
 				},
 				{
-					"foto":"manajemen_kendaraan/record_bbm.png",
+					"foto":"manajemen_kendaraan/record_bbm.PNG",
 					"keterangan":"Halaman Catatan Pembelian BBM"
 				},
 				{
-					"foto":"manajemen_kendaraan/catatan.png",
+					"foto":"manajemen_kendaraan/catatan.PNG",
 					"keterangan":"Halaman Catatan Pengeluaran Lain"
 				},
 				{
-					"foto":"manajemen_kendaraan/kendaraan.png",
+					"foto":"manajemen_kendaraan/kendaraan.PNG",
 					"keterangan":"Halaman Kelola Kendaraan"
 				},
 				{
-					"foto":"manajemen_kendaraan/statistik.png",
+					"foto":"manajemen_kendaraan/statistik.PNG",
 					"keterangan":"Halaman Laporan Statistik"
 				}
 				
@@ -46,31 +46,31 @@
 			"title": "Aplikasi POS",
 			"ket": "Full Development",
 			"paragraf": "Dibuat untuk memenuhi tugas perkuliahan.<br /><br />Spesifikasi <ul><li>Laravel 9</li><li>Tailwind</li><li>Flowbite</li><li>Font Awesome</li><li>MySQL</li><li>Sweetalert 2</li><li>DataTable Serverside</li></ul>",
-			"thumbnail":"pos/login.png",
+			"thumbnail":"pos/login.PNG",
 			"files":
 			[
 				{
-					"foto":"pos/login.png",
+					"foto":"pos/login.PNG",
 					"keterangan":"Halaman Login"
 				},
 				{
-					"foto":"pos/dashboard.png",
+					"foto":"pos/dashboard.PNG",
 					"keterangan":"Halaman Dashboard"
 				},
 				{
-					"foto":"pos/kasir.png",
+					"foto":"pos/kasir.PNG",
 					"keterangan":"Halaman Transaksi Kasir"
 				},
 				{
-					"foto":"pos/kelola_produk.png",
+					"foto":"pos/kelola_produk.PNG",
 					"keterangan":"Halaman Kelola Produk"
 				},
 				{
-					"foto":"pos/invoice.png",
+					"foto":"pos/invoice.PNG",
 					"keterangan":"Invoice"
 				},
 				{
-					"foto":"pos/laporan.png",
+					"foto":"pos/laporan.PNG",
 					"keterangan":"Halaman Laporan"
 				}
 				
